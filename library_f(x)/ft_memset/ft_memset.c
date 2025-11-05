@@ -6,7 +6,7 @@
 /*   By: adzmusta <adzmusta@student.42iskandarpute  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 14:20:52 by adzmusta          #+#    #+#             */
-/*   Updated: 2025/11/02 14:23:13 by adzmusta         ###   ########.fr       */
+/*   Updated: 2025/11/06 00:36:37 by adzmusta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	*ft_memset(void *memory, int fill, size_t bytes)
 		ptr[i] = (unsigned char)fill;
 		i++;
 	}
-	return (memory);
 }
